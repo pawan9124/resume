@@ -1,0 +1,19 @@
+@import "./constants.scss";
+//Create mixins for the flex direction
+@mixin create-flex-container($direction_name, $flex_direction) {
+  .flex-container-#{$direction_name} {
+    display: flex;
+    flex-direction: $flex_direction;
+  }
+}
+
+//Create mixins for the button
+@mixin create-button($button_name, $color) {
+  .btn-#{$button_name} {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: $color;
+    text-decoration: none;
+    color: $text_color;
+  }
+}

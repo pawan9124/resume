@@ -1,0 +1,131 @@
+@import "../../sass/constants";
+
+.fifth_section {
+  transition: 0.5s;
+  height: 100vh;
+  width: 100%;
+
+  background-color: #1a1527;
+  width: 100%;
+  height: max-content;
+  background-size: cover;
+  // padding: 5%;
+
+  &::before {
+    content: "PRO";
+    font-size: 270px;
+    font-weight: 700;
+    color: #221d35;
+    position: absolute;
+    right: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    color: $text_heading;
+    position: relative;
+    padding: 35px 0 3% 30%;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .flex-child {
+    text-align: center;
+    h3 {
+      color: $text_color;
+      position: relative;
+    }
+    ul li {
+      list-style: none;
+      color: $text_color;
+      display: flex;
+      padding: 4%;
+    }
+
+    ul li span {
+      margin-right: 14%;
+      width: 12%;
+    }
+    .skill-container {
+      width: 100%;
+    }
+
+    .marker {
+      height: 10px;
+      background-color: $secondary;
+      transform: scaleX(1);
+      transition: 1s ease-in;
+    }
+  }
+
+  .code-l:after {
+    content: attr(data-line-nr);
+    position: absolute;
+    left: -60px;
+    color: #3b3553;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    z-index: 3;
+    top: 0;
+  }
+
+  .about_container {
+    font-size: 1.2rem;
+    font-family: roboto;
+    transform: translateX(45%);
+    position: relative;
+    line-height: 1.5;
+    display: inline-block;
+  }
+  .line {
+    position: relative;
+    span {
+      margin-left: 5px;
+    }
+  }
+
+  .purple {
+    color: #5918df;
+  }
+  .yellow {
+    color: rgb(238, 255, 49);
+  }
+  .white {
+    color: #fff;
+  }
+  .red {
+    color: #e3244c;
+  }
+  .aqua {
+    color: #24e394;
+  }
+  .green {
+    color: #24e33a;
+  }
+  .orange {
+    color: #e39d24;
+  }
+  .grey {
+    color: #78707e;
+  }
+}
+
+//Media queries for the second section
+@media only screen and (max-width: 768px) {
+  .fifth_section {
+    .about_container {
+      font-size: 1rem;
+      font-family: roboto;
+      transform: translateX(13%);
+      position: relative;
+      line-height: 1.5;
+      display: inline-block;
+    }
+    &::before {
+      content: "PRO";
+      font-size: 170px;
+    }
+  }
+}
+
+//

@@ -1,0 +1,101 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "../../sass/constants.scss";
+@import "../../sass/mixins.scss";
+
+.thrid_section {
+  background-color: #1a1527;
+  width: 100%;
+  height: max-content;
+  background-size: cover;
+
+  &::before {
+    content: "WEB";
+    font-size: 270px;
+    font-weight: 700;
+    color: #221d35;
+    position: absolute;
+    right: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    color: $text_heading;
+    position: relative;
+    padding: 35px 0 3% 30%;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .image-gallery {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+  }
+  .image-gallery-container {
+    position: relative;
+  }
+  .bullet {
+    height: 10px;
+    width: 10px;
+    background: #5918df;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    display: inline-block;
+    /* transform: translate(62%,20%); */
+    top: 13%;
+    left: -4.4%;
+  }
+  .button_container {
+    width: 86.2%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    bottom: 6.9%;
+    position: absolute;
+    left: 5%;
+  }
+  @include create-button("primary", $primary);
+  .visit-button {
+    left: 25%;
+    position: relative;
+  }
+  .image-gallery-thumbnails-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .thrid_section {
+    h1 {
+      position: relative;
+      padding: 10px 0 3% 30%;
+      font-size: 1.5em;
+    }
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 1080px) {
+  .thrid_section {
+    h1 {
+      position: relative;
+      padding: 10px 0 3% 30%;
+      font-size: 3em;
+    }
+    &::before {
+      font-size: 270px;
+    }
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 768px) {
+  .thrid_section {
+    h1 {
+      position: relative;
+      padding: 10px 0 3% 30%;
+      font-size: 1.5em;
+    }
+    &::before {
+      font-size: 170px;
+    }
+  }
+}

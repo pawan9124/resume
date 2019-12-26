@@ -1,0 +1,62 @@
+@import "../../sass/constants.scss";
+
+.fourth_section {
+  background-color: #1a1527;
+  width: 100%;
+  height: max-content;
+  background-size: cover;
+
+  &::before {
+    content: "WIN";
+    font-size: 270px;
+    font-weight: 700;
+    color: #221d35;
+    position: absolute;
+    left: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    color: $text_heading;
+    position: relative;
+    padding: 35px 0 3% 30%;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  height: max-content;
+  .box-container {
+    display: flex;
+  }
+  .box-container:nth-child(2) .box-image,
+  .box-container:nth-child(4) .box-image {
+    order: 2;
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 1080px) {
+  .fourth_section {
+    h1 {
+      position: relative;
+      padding: 10px 0 3% 30%;
+      font-size: 3em;
+    }
+    &::before {
+      font-size: 270px;
+    }
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 768px) {
+  .fourth_section {
+    h1 {
+      position: relative;
+      padding: 10px 0 3% 30%;
+      font-size: 1.5em;
+    }
+    &::before {
+      font-size: 170px;
+    }
+  }
+}

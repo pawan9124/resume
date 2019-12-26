@@ -1,0 +1,81 @@
+@import "../../sass/constants.scss";
+
+.card-container {
+  position: relative;
+  cursor: pointer;
+  .card-image {
+    height: 300px;
+    width: 400px;
+  }
+  .card-image:hover {
+    transform: translate3d(10, 20, 20);
+  }
+  .image-cover {
+    height: 300px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.38);
+    position: absolute;
+    pointer-events: none;
+  }
+  h3 {
+    pointer-events: none;
+  }
+  .card-heading {
+    position: absolute;
+    bottom: 20%;
+    left: -2%;
+
+    h3 {
+      margin: 0;
+      font-size: 1.6rem;
+      width: 75%;
+      color: #fff;
+    }
+
+    .card-text {
+      width: 60%;
+      padding: 2px;
+      bottom: -10px;
+      background: #fff;
+      position: absolute;
+    }
+    .card-count {
+      font-size: 20px;
+      position: absolute;
+      bottom: -39px;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 1080px) {
+  .card-container {
+    .card-image {
+      height: 250px;
+      width: 350px;
+    }
+    .image-cover {
+      height: 250px;
+      width: 350px;
+    }
+  }
+}
+
+//For the media query
+@media only screen and (max-width: 768px) {
+  .card-container {
+    left: 10% !important;
+    padding-top: 10px !important;
+    top: 0px !important;
+  }
+  .modal-content {
+    width: 100%;
+  }
+  .card-heading {
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+}

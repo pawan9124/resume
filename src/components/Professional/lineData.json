@@ -1,0 +1,451 @@
+{
+  "data": [
+    {
+      "line": "01",
+      "value": [
+        { "class": "purple", "text": "class" },
+        { "class": "yellow", "text": " Pawan Saket" },
+        { "class": "white", "text": " {" }
+      ]
+    },
+    {
+      "line": "02",
+      "value": [
+        { "class": "grey", "text": ".." },
+        {
+          "class": "grey",
+          "text": "// I'm ambitious and love new challenges :)"
+        }
+      ]
+    },
+
+    {
+      "line": "03",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "grey",
+          "text": "// My vast variety of skills is continuously expanding."
+        }
+      ]
+    },
+    {
+      "line": "04",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "purple",
+          "text": "constructor()"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        }
+      ]
+    },
+    {
+      "line": "05",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "red",
+          "text": "this."
+        },
+        {
+          "class": "aqua",
+          "text": "name"
+        },
+        {
+          "class": "red",
+          "text": "="
+        },
+        {
+          "class": "green",
+          "text": "Pawan Saket"
+        }
+      ]
+    },
+    {
+      "line": "06",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "red",
+          "text": "this."
+        },
+        {
+          "class": "aqua",
+          "text": "dayOfBirthTimestamp"
+        },
+        {
+          "class": "red",
+          "text": "="
+        },
+        {
+          "class": "orange",
+          "text": "1993-11-03"
+        }
+      ]
+    },
+    {
+      "line": "07",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "red",
+          "text": "this."
+        },
+        {
+          "class": "aqua",
+          "text": "email"
+        },
+        {
+          "class": "red",
+          "text": "="
+        },
+        {
+          "class": "green",
+          "text": "pawan_saket@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "line": "08",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "09",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "yellow",
+          "text": "workExperience()"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "purple",
+          "text": "return "
+        },
+        {
+          "class": "white",
+          "text": "["
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "value": [
+        {
+          "class": "grey",
+          "text": "······"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        },
+        {
+          "class": "green",
+          "text": "'Mar 2017-now'"
+        },
+        {
+          "class": "white",
+          "text": ":"
+        },
+        {
+          "class": "green",
+          "text": "Full Stack Developer at Vujade labs"
+        },
+        {
+          "class": "white",
+          "text": "},"
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "value": [
+        {
+          "class": "grey",
+          "text": "······"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        },
+        {
+          "class": "green",
+          "text": "'Aug 2016- Mar 2017'"
+        },
+        {
+          "class": "white",
+          "text": ":"
+        },
+        {
+          "class": "green",
+          "text": "Freelance at crowdfunding"
+        },
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "13",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "white",
+          "text": "]"
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "16",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "yellow",
+          "text": "education()"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        }
+      ]
+    },
+    {
+      "line": "17",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "purple",
+          "text": "return "
+        },
+        {
+          "class": "white",
+          "text": "["
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "value": [
+        {
+          "class": "grey",
+          "text": "······"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        },
+        {
+          "class": "green",
+          "text": "'Sept 2012- Jan 2017'"
+        },
+        {
+          "class": "white",
+          "text": ":"
+        },
+        {
+          "class": "green",
+          "text": "Rajasthan Technical University"
+        },
+        {
+          "class": "white",
+          "text": "},"
+        }
+      ]
+    },
+    {
+      "line": "19",
+      "value": [
+        {
+          "class": "grey",
+          "text": "······"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        },
+        {
+          "class": "green",
+          "text": "'Sept 2015- Jan 2016'"
+        },
+        {
+          "class": "white",
+          "text": ":"
+        },
+        {
+          "class": "green",
+          "text": "Zealand Institute of Business and technology"
+        },
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "20",
+      "value": [
+        {
+          "class": "grey",
+          "text": "··"
+        },
+        {
+          "class": "white",
+          "text": "]"
+        }
+      ]
+    },
+    {
+      "line": "21",
+      "value": [
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "value": [
+        {
+          "class": "grey",
+          "text": ".."
+        },
+        {
+          "class": "yellow",
+          "text": "skills()"
+        },
+        {
+          "class": "white",
+          "text": "{"
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "value": [
+        {
+          "class": "grey",
+          "text": "····"
+        },
+        {
+          "class": "purple",
+          "text": "return "
+        },
+        {
+          "class": "white",
+          "text": "["
+        },
+        {
+          "class": "green",
+          "text": " 'Reactjs', 'Redux', 'Webpack', 'Jest', 'Saas', 'Enzyme', 'AngularJS', 'Nodejs', "
+        }
+      ]
+    },
+    {
+      "line": "24",
+      "value": [
+        {
+          "class": "green",
+          "text": " 'Expressjs', 'HTML', 'CSS','GraphQL', 'MongoDB','PSQL', 'Wordpress', 'Shopify' , 'GIMP',"
+        }
+      ]
+    },
+    {
+      "line": "25",
+      "value": [
+        {
+          "class": "green",
+          "text": " 'Figma UI Prototype', 'Selenium WebDriver', 'Prometheus'. ]"
+        }
+      ]
+    },
+    {
+      "line": "26",
+      "value": [
+        {
+          "class": "grey",
+          "text": "··"
+        },
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "value": [
+        {
+          "class": "white",
+          "text": "}"
+        }
+      ]
+    }
+  ]
+}
