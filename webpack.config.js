@@ -25,7 +25,7 @@ exports.default = {
       template: "./public/index.html"
     }),
     new CleanWebpackPlugin(),
-    new BundleAnalyzerPlugin(),
+    process.env.ENV === "development" ? new BundleAnalyzerPlugin() : () => {},
     new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({
       filename: "./dist/[name].bundle.css"
