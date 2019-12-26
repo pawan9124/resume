@@ -38,7 +38,7 @@ exports.default = {
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",
         options: {
-          presets: ["@babel/env"]
+            presets: ["@babel/env", "@babel/react"]
         }
       },
       {
@@ -58,7 +58,7 @@ exports.default = {
           //Creates 'style' nodes from JS Strings
           process.env.NODE_ENV != "production"
             ? "style-loader"
-            : MiniCssExtractPlugin,
+            : MiniCssExtractPlugin.loader,
           //Translate CSS into CommonJS
           "css-loader",
           "postcss-loader",
