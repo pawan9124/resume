@@ -6,7 +6,7 @@
   "scripts": {
     "test": "portfolio pawan saket",
     "heroku-prebuild": "npm install --dev ",
-"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
     "start": "webpack-dev-server",
     "build": "webpack"
   },
