@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "portfolio pawan saket",
+    "heroku-prebuild": "npm install --dev",
     "start": "webpack-dev-server",
     "build": "webpack"
   },
