@@ -66,13 +66,13 @@ class Achievements extends React.Component {
           }}
         />
         <Cards
-          image={"zealand-win.jpg"}
-          heading={"Certificate of Award by Zealand Institute"}
-          cardIndex={"02"}
+          image={"paper_cut.jpg"}
+          heading={"Secured Highest Marks in Computer Science"}
+          cardIndex={"04"}
           isModal={true}
-          doc_title={"Award of Certificate by Zealand Insitute"}
+          doc_title={"Computer Science Highest marks"}
           details={
-            "Award of certificate given by the zealnd Institute for the winning of the competition in Nov 2014."
+            "Secured Highest marks in computer science in high school."
           }
           style={{
             left: "10%",
