@@ -11,3 +11,4 @@ app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 app.listen(port);
+console.log("Server listing to the port:",port);
