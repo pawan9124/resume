@@ -6,9 +6,9 @@
   "scripts": {
     "test": "portfolio pawan saket",
     "server":"node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run build\"",
+    "start": "concurrently \"npm run server\" \"npm run build\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false",
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack -p"
   },
   "author": "Pawan Saket",
